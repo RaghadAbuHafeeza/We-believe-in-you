@@ -1,0 +1,386 @@
+@media (max-width: 576px){
+.container{
+    margin: 0 30px;
+}
+.options{
+    width: 35px;
+}
+.options li a{
+    font-size: 18px;
+}
+.options2{
+    bottom: 10px;
+    right: 10px;
+}
+.navbar .logo{
+    float: none;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.navbar .nav{
+    float: none;
+    width: 85%;
+    padding-bottom: 0;
+    text-align: right;
+} 
+.navbar .nav .list-item{
+    margin-left: 30px;
+}
+.header h1{
+    font-size:40px;
+}
+.header p{
+    font-size: 20px;
+}
+.header .overlay .header-content .btn-joinus{
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.header .overlay .header-content .btn-donations{
+    font-size: 12px;
+    padding: 5px 20px;
+}
+/*********************************/
+.sub-believes{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+/*****************************/
+.H-W{
+    float: none;
+}
+.Hello-Welcome .container{
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.Hello-Welcome h2{
+    font-size: 20px;
+
+}
+.Hello-Welcome .container .H-W .hw p{
+    text-align: center;
+    float: none;
+    width: 85%;
+    font-size: 15px;
+}
+.Hello-Welcome .container .H-W a{
+    font-size: 10px;
+    padding: 7px 15px;
+}
+
+
+/***********************************/
+.Grace-and-Truth .container h4{
+    font-size: 15px;
+}
+.Grace-and-Truth .container p{
+    font-size: 25px;
+}
+.Grace-and-Truth .container a{
+    font-size: 10px;
+}
+/********************************/
+.Latest-news .container h2{
+    font-size: 35px;
+} 
+.Latest-news .sub-news{
+    float: none;
+    width: 100%;
+    margin-bottom: 150px;
+    margin-top: 50px;       
+}
+
+.Latest-news .sub-news img{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+/*********************************/
+.Martin-Luther .container h2{
+    font-size: 20px;
+}
+.Martin-Luther .container p{ 
+    font-size: 25px;
+}
+.Martin-Luther .container a{
+    font-size: 10px;
+}
+/*********************************/
+.Wanna-join .container{
+   
+}
+.Wanna-join h2{
+    font-size: 26px;
+}
+.Wanna-join p{
+    font-size: 15px;
+   
+}
+.Wanna-join a{
+    margin-top: 25px;
+    font-size: 10px;
+    border-radius: 50px;
+    padding: 7px 10px;
+} 
+/*****************************/
+.footer .item{
+    float: none;
+    width: 100%;
+}
+.footer .footer-second .copyright{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.footer .footer-second .icons{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+}
+
+/*******************************************/
+/*******************************************/
+/*******************************************/
+
+@media (min-width: 577px) and (max-width: 768px){
+        .navbar .logo{
+            float: none;
+            width: 100%;
+            padding-bottom: 40px;
+            padding-top: 20px;
+        }
+        .navbar .nav{
+            float: none;
+            width: 89%;
+            padding-bottom: 10px;
+        } 
+        .navbar .nav .list-item{
+            margin-left: 30px;
+        }
+        .header h1{
+            font-size:60px;
+        
+        }
+        .header p{
+            font-size: 20px;
+        }
+        /*********************************/
+        .sub-believes{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        /*******************************/
+        .H-W{
+            float: none;
+            
+        }
+        .Hello-Welcome .container{
+            padding-top: 30px;
+            padding-bottom: 90px;
+        }
+        .Hello-Welcome h2{
+            font-size: 20px;
+        }
+        .Hello-Welcome .container .H-W .hw p{
+            text-align: center;
+            float: none;
+            width: 90%;
+            font-size: 20px;
+        }
+         /********************************/
+        .Grace-and-Truth .container h4{
+            font-size: 20px;
+        }
+        .Grace-and-Truth .container p{
+            font-size: 35px;
+        }
+        .Grace-and-Truth .container a{
+            font-size: 12px;
+        }
+        /******************************/
+        .Latest-news .sub-news{
+            float: none;
+            width: 85%;
+            margin-bottom: 150px;
+            margin-top: 50px;       
+        }
+        .Latest-news .sub-news img{
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .Wanna-join .container{
+            margin-right: 30px;
+        }
+        .Wanna-join h2{
+            font-size: 30px;
+        }
+        .Wanna-join p{
+            color: rgba(255,255,255,.82);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: 15px;              
+            text-align: center;
+            font-family: 'Open Sans',arial;
+           
+        }
+        .Wanna-join a{
+            margin-top: 20px;
+            font-size: 12px;
+            border-radius: 50px;
+            padding: 10px 15px;
+        } 
+        /*****************************/
+        .footer .item{
+            float: none;
+            width: 100%;
+        }
+        .footer .item h2{
+            font-size: 35px;
+        }
+      
+        .footer .footer-second .copyright{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        .footer .footer-second .icons{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+}
+
+/***************************************/
+/***************************************/
+/***************************************/
+
+@media (min-width: 769px) and (max-width: 992px){
+    .container{
+        margin: 0 130px;
+    }
+    .navbar .logo{
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 90%;
+        padding-bottom: 10px;
+        text-align: right;
+        font-size: 50px;
+    } 
+    .navbar .nav .list-item{
+        margin-left: 30px;
+    }
+    .header h1{
+        font-size:60px;
+    
+    }
+    .header p{
+        font-size: 20px;
+    }
+    /*********************************/
+    .sub-believes{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .H-W{
+        float: none;
+        
+    }
+    .Hello-Welcome .container{
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+    .Hello-Welcome h2{
+        font-size: 40px;
+    }
+    .Hello-Welcome .container .H-W .hw p{
+        text-align: center;
+        float: none;
+        width: 90%;
+        font-size: 20px;
+    }
+     
+    .Grace-and-Truth .container h4{
+        font-size: 20px;
+    }
+    .Grace-and-Truth .container p{
+        font-size: 35px;
+    }
+    .Grace-and-Truth .container a{
+        font-size: 12px;
+    }
+    
+    .Latest-news .sub-news{
+        float: none;
+        width: 85%;
+    
+        
+    
+        margin-bottom: 150px;
+        margin-top: 50px;       
+    }
+    
+    .Latest-news .sub-news img{
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    
+    .Wanna-join .container{
+        marging-right: 30px;
+    }
+    .Wanna-join h2{
+        font-size: 30px;
+    }
+    .Wanna-join p{
+        color: rgba(255,255,255,.82);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 15px;              
+        text-align: center;
+        font-family: 'Open Sans',arial;
+       
+    }
+    .Wanna-join a{
+        margin-top: 20px;
+        font-size: 12px;
+        border-radius: 50px;
+        padding: 10px 15px;
+    } 
+    /*****************************/
+    .footer .item{
+        float: none;
+        width: 100%;
+    }
+    .footer .item h2{
+        font-size: 35px;
+    }
+  
+    .footer .footer-second .copyright{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .footer-second .icons{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}

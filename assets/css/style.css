@@ -1,0 +1,717 @@
+/*public*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Allura&family=Crimson+Text:ital@1&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+.container{
+   
+    text-align: center;
+    width: 80%;
+    margin: 0 150px;
+}
+/*حل مشكلة الفلوت الطريقة الثانية*/
+.clrfix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+.options{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    background-color: #fff;
+    width: 45px;
+    z-index: 9999999;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    padding-top: 8px;
+}
+.options li a{
+   color: #666;
+   padding-top: 10px; 
+   padding-bottom: 10px;
+   font-size: 20px;
+   margin-left: 10px;
+   display: block;
+}
+
+.options2{
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid #777;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    z-index: 9999999;
+    border-radius: 100%;
+}
+.options2 a{
+    color: #969696;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 43px;
+    margin-left: 12px;
+}
+.options2:hover{
+    border: 2px solid #fff;
+}
+.options2 a:hover{
+    color: #fff;
+}
+/***********************************************************************************************************************/
+/*start section header*/
+.header{
+    position: relative;
+    background-image: url('../img/church-5.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 130vh;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+}
+.navbar .logo img{
+    width: 25%;
+}
+.navbar .nav{
+    float: left;
+    width: 60%;
+}
+.navbar .nav #home{
+    border-top: 3px solid #de4b38;
+    border-color: #de4b38;
+    color: #de4b38;
+    border-top: 10px;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar .nav .list-item a{
+   padding-right: 14px;
+   padding-left: 14px;
+   color: #fff;
+   font-size: 20px;
+   margin-right: 20px;
+}
+.header-content{
+    padding-top: 210px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.header h1{
+    color: #fff;
+    font-size:85px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.header p{
+    font-size: 22px;
+    color: rgba(255,255,255, .92);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+.header .overlay .header-content .btn-joinus{
+    transition-delay: 60ms;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background-color: #de4b38;
+    font-family: 'Open Sans',arial;
+    border: 2px solid transparent;
+    padding: 8px 30px;
+    letter-spacing: 0.2px;
+    line-height: 34px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.header .overlay .header-content .btn-donations{
+    transition-delay: 60ms;
+    font-weight: 700;
+    margin-left: 12px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #de4b38;
+    font-family: 'Open Sans',arial;
+    border: 2px solid transparent;
+    padding: 8px 30px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.header .overlay .header-content .btn-joinus:hover{
+    color: #222;
+    background-color: #fff;
+}
+.header .overlay .header-content .btn-donations:hover{
+    color: #222;
+    background-color: #fff;
+}
+/*end header*/
+
+/****************************************************************************************************************/
+/*start section believe*/
+.believe{
+    background-color: white;
+    text-align: center;
+    margin: 70px 0;
+}
+.sub-believes{
+    margin: 0 auto;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.container .sub-believes i{
+    background-color: #de4b38;
+    border-radius: 100%;
+    color: #fff;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 32px;
+    margin: 0 auto 22px; 
+
+}
+.container h2{
+    margin-bottom: 11px;
+    font-size: 20px;
+    color: #634a4b;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.38em;
+    text-align: center;
+    
+}
+.container p{
+    font-size: 17px;
+    margin-right: 20px;
+    color: #888;
+    margin-bottom: 20px;
+    line-height: 1.86em;
+    text-align: center;
+    font-family: 'Open Sans',arial;
+    font-weight: 100;
+}
+/*end section believe*/
+
+/*****************************************************************************************************************/
+/*start section Hello-Welcome*/
+.Hello-Welcome{
+    background-color: #f8f8f8 ;
+    text-align: center;
+}
+.Hello-Welcome .container{
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.Hello-Welcome h2{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    color: #634a4b;
+    font-weight: 700;
+    line-height: 1.38em;
+}
+.H-W{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    /*padding-left: 70px;
+    padding-right: 50px;*/
+    padding-bottom: 10px;
+}
+.Hello-Welcome .container .H-W .hw p{
+    text-align:left;
+    float: left;
+    width: 48%;
+    font-size: 16px;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 100px;
+}
+.Hello-Welcome .container .H-W a{
+    transition-delay: 60ms;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #de4b38;
+    font-family: 'Open Sans', arial;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    color: #fff;
+    padding: 9px 20px;
+    color: #fff;
+    border: 5px solid transparent;
+}
+.Hello-Welcome .container .H-W a:hover{
+    background-color: #333;
+    border-color: #333;
+}
+/*end section Hello-Welcome*/
+
+/**********************************************************************************************************************/
+/*start section Grace-and-Truth*/     
+.Grace-and-Truth{
+    position: relative;                                  
+    background-image: url('../img/church-15.jpg');
+   /* height: 100vh;*/
+    background-size: cover; 
+    padding: 270px 0;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+/*
+.Grace-and-Truth .container{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+*/
+.Grace-and-Truth .container h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 18px;
+    line-height: 1.38em; 
+    opacity: 1;
+    text-align: center;
+}
+.Grace-and-Truth .container p{
+    margin-bottom: 30px;
+    font-size: 42px;
+    line-height: 1.38em;   
+    font-weight: 700;
+    color: #fff;
+}
+.Grace-and-Truth .container a{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    font-weight: 700;
+    border-radius: 50px;
+    color: #fff;
+    border-color: #fff;
+    border: 2px solid ;
+    padding: 8px 20px;
+    text-align: center;
+}
+.Grace-and-Truth .container a:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+.Grace-and-Truth .container a .arrow{
+    display: none;
+}
+.Grace-and-Truth .container a:hover .arrow{
+    display: unset;
+}
+/*end section Grace-and-Truth*/     
+
+/**********************************************************************************************************/
+/*start section Latest-news*/  
+.Latest-news{
+    text-align: center;
+    margin-top: 10px;
+}
+.sub-news .container{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.Latest-news .container{
+    padding: 50px 10px;
+}
+.Latest-news .container h2{
+    color: #634a4b;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.38em;
+} 
+.Latest-news .sub-news{
+    border: 1px solid #efefef;;
+    float: left;
+    width: 30%;
+    margin: 15px;
+    overflow: hidden;
+    
+
+    margin-bottom: 150px;
+    margin-top: 50px;       
+}
+.Latest-news .sub-news img{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.Latest-news .sub-news .name:hover{
+    color: #de4b38;
+    cursor: pointer;
+}
+.Latest-news .sub-news .word{
+    color: #de4b38;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.Latest-news .sub-news .word:hover{
+    color: #934960
+}
+.Latest-news .sub-news .date{
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans',arial;
+    cursor:default;
+}
+.Latest-news .sub-news .paragraph{
+    margin-bottom: 15px;
+    line-height: 1.96em;
+    display: block;
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    color: #686868;
+    cursor:default;
+}
+.Latest-news .sub-news .read-more{
+    transition-delay: 60ms;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    position: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    margin-top: -2px;
+    font-size: 14px;
+}
+.Latest-news .sub-news .read-more:hover{
+    color: #de4b38;
+}
+/*end section Latest-news*/
+
+/***************************************************************************************************************/
+/*start section Martin Luther*/  
+.Martin-Luther{ 
+    position: relative;                          
+    background-image: url('../img/church-9.jpg');
+    background-size: cover; 
+    padding: 270px 0;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+.Martin-Luther .container{
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 30px;
+    width: 75%;
+}
+.Martin-Luther .container h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 18px;
+    line-height: 1.38em;
+}
+.Martin-Luther .container p{ 
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.38em;
+    margin: 0.67em 0;
+}
+.Martin-Luther .container a{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    font-weight: 700;
+    line-height: 1.86em;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: #fff;
+    padding: 12px 23px;
+    text-align: center;
+}
+.Martin-Luther a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.Martin-Luther .container a .arrow{
+    display: none;
+ }
+.Martin-Luther .container a:hover .arrow{
+    display: unset;
+ }
+/*end section Martin Luther*/
+
+/************************************************************************************************************************/
+/*start Wanna-join*/                   
+.Wanna-join{
+    background-color: rgb(222, 75, 56);
+    text-align: center;
+    padding: 90px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    width: 100%;
+}
+.Wanna-join h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: center;
+}
+.Wanna-join p{
+    color: rgba(255,255,255,.82);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;              
+    text-align: center;
+    font-family: 'Open Sans',arial;
+    
+}
+.Wanna-join a{
+    margin-top: 17px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px 25px;
+    font-weight: 700;
+}
+.Wanna-join a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*end Wanna-join*/   
+
+/*****************************************************************************************************************************/
+/*start section footer*/                                  
+.footer{
+    background-color:#1a1b1e;
+    padding-top: 30px;
+}
+.footer .footer-content{
+    overflow: hidden;
+}
+.footer .container{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer .item{
+   float: left;
+   width: 33.33%;
+   color: #969696;
+   padding-bottom: 25px;
+   margin-bottom: 6px;
+   padding-bottom: 7px;
+   font-weight: 400;
+   
+}
+.footer .item h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat";
+    margin-bottom: 25px;
+    font-weight: 600;
+    cursor: text;
+    text-align: left;
+}
+.footer .item p{
+    font-size: 14px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    cursor: text;
+    text-align: left;
+}
+.footer .item a{
+    color: #A9A9A9;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 1s;
+    cursor: pointer;
+}
+.footer .item a:hover {
+    color: #fff;
+}
+.footer .item .arr{
+    text-align: left;
+    font-size: 14px;
+}
+.footer .item .arr::before{
+    content: '\f105';/*بالسي اس اس لازم اضع رقم الايقونة*/
+    font-family: FontAwesome;/*لازم نضيفها في حال ضفت ايقونة بالسي اس اس */
+    margin-right: 10px;
+    font-size: 10px;
+}
+.footer .item .U-L .arr{
+    padding-bottom: 20px;
+}
+.footer .item .O-H .arr{
+    padding-bottom: 20px;
+}
+
+.footer .item .C-D .contact{
+    padding-bottom: 33px;
+    text-align: left;
+    font-size: 14px;
+}                              
+.footer .footer-content li{
+    margin-bottom: 20px;
+}
+.footer .footer-content li i{
+    margin-right: 10px;
+}
+.footer .map{
+    position: relative;
+    background-image: url('../img/footer-map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(121, 121, 121);
+    height: 45vh;
+}
+.footer .overlay{
+    position: absolute;
+    background-color: rgba(26, 27, 30, 0.85);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.footer .container .footer-countent .item .underline{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 95%;
+}
+.footer .item .contact{
+    padding-top: 10px;
+}
+.footer .item a{
+    color:#A9A9A9;;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 1s;
+    cursor: pointer;
+}
+.footer .item a:hover {
+    color: red;
+}
+.footer .footer-second{
+    background-color: #131416;
+    text-align: center;
+    padding-top: 10px;          
+    padding-bottom: 10px;
+}
+
+.footer .footer-second .container{
+    overflow: hidden;
+    padding: 0;
+}
+.footer .footer-second .copyright{
+    margin-left: 0;
+    float: left;
+    width: 30%;
+    padding-top: 10px;
+}
+.footer .footer-second .icons{
+    text-align: right;
+    float: right;
+    width:70%;
+    padding-top: 20px;
+}
+
+
+.footer .footer-second .icons i{
+    background-color:#222;
+    color: #888;
+    /*background-color: #535353;*/
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.footer .footer-second .icons i:hover{
+    color: #fff;
+}
+.footer .footer-second .icons #A:hover{
+    background-color: #3b5998;
+}
+.footer .footer-second .icons #B:hover{
+    background-color: #125688;
+}
+
+.footer .footer-second .icons #C:hover{
+    background-color: #32506d ;
+}
+
+.footer .footer-second .icons #D:hover{
+    background-color: #00aced;
+}
+
+/*end section footer*/
+  
